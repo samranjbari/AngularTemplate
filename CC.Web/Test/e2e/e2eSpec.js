@@ -1,6 +1,6 @@
 /** A Sample Angular E2E test */
 
-describe('My Sample App', function() {
+describe('My Sample E2E Test', function() {
 
   it('should let Angular do its work', function() {
     browser().navigateTo('/index.html');

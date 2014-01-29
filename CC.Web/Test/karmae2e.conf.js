@@ -29,7 +29,7 @@ module.exports = function(config) {
 
 	reportSlowerThan: 500,
 
-    singleRun: false,
+    singleRun: true,
 
     plugins: [
       'karma-ng-scenario',
