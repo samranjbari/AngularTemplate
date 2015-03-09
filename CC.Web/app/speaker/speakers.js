@@ -7,9 +7,9 @@
     // Define the controller on the module.
     // Inject the dependencies. 
     // Point to the controller definition function.
-    angular.module('app').controller(controllerId,
-        ['datacontext', 'common', speakers]);
-
+    angular.module('app').controller(controllerId, speakers);
+    
+    speakers.$inject = ['datacontext', 'common'];
     function speakers(datacontext, common) {
         // Using 'Controller As' syntax, so we assign this to the vm variable (for viewmodel).
         var vm = this;
